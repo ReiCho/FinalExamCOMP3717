@@ -43,6 +43,6 @@ public class ViewActivity extends AppCompatActivity {
                 listView.setAdapter(adapter);
             }
         });
-        
+
     }
 }
