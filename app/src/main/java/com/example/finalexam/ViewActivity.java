@@ -43,21 +43,6 @@ public class ViewActivity extends AppCompatActivity {
                 listView.setAdapter(adapter);
             }
         });
-
-
-
-//                .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
-//            @Override
-//            public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
-//                List<String> data = new ArrayList<>();
-//                for (QueryDocumentSnapshot my_movies: queryDocumentSnapshots) {
-//                    data.add(my_movies.getString("Title"));
-//                }
-//                ArrayAdapter<String> adapter = new ArrayAdapter<>(ViewActivity.this,
-//                        R.layout.activity_view, data);
-//                ListView listView = findViewById(R.id.view);
-//                listView.setAdapter(adapter);
-//            }
-//        });
+        
     }
 }
